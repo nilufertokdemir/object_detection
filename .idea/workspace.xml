@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45577152-b15b-4f36-8395-3475e608f245" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/result_car/object_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result_plate/object_1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/images/baggage_claim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/images/dining_table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/images/living_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/images/soccer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/videos/airport.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/videos/car_chase_01.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/videos/car_chase_02.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/videos/overpass.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo-coco/coco.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo-coco/obj.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo-coco/obj.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo-coco/obj_60000.weights" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo-coco/yolov3.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo-coco/yolov3.weights" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/yolo_video.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZPRH7VmTYkKAOJ8ZdbjuRK1Ah6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45577152-b15b-4f36-8395-3475e608f245" name="Default Changelist" comment="" />
+      <created>1584738651204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584738651204</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584742869029">
+      <screen x="43" y="24" width="1323" height="744" />
+    </state>
+    <state x="398" y="188" key="#com.intellij.fileTypes.FileTypeChooser/43.24.1323.744@43.24.1323.744" timestamp="1584742869029" />
+    <state x="198" y="24" key="SettingsEditor" timestamp="1584738712485">
+      <screen x="43" y="24" width="1323" height="744" />
+    </state>
+    <state x="198" y="24" key="SettingsEditor/43.24.1323.744@43.24.1323.744" timestamp="1584738712485" />
+    <state x="365" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584742091195">
+      <screen x="43" y="24" width="1323" height="744" />
+    </state>
+    <state x="365" y="211" key="com.intellij.ide.util.TipDialog/43.24.1323.744@43.24.1323.744" timestamp="1584742091195" />
+  </component>
+</project>
