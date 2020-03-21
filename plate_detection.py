@@ -11,8 +11,8 @@ from service import Service
 sys.path.append(os.path.join(os.getcwd(), '/home/nilufer/Desktop/yolo/darknet/python'))
 lib = CDLL(os.path.join(os.getcwd(), "libdarknet.so"), os.RTLD_GLOBAL)
 
-folder_path = "./cars"
-folder_path2 = "./plates"
+folder_path = "cars"
+folder_path2 = "plates"
 
 class PlateDetection(Service):
     def save_image(self,image, extention, f_path):

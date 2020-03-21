@@ -9,7 +9,7 @@ from service import Service
 sys.path.append(os.path.join(os.getcwd(),'/home/nilufer/Desktop/yolo/darknet/python'))
 lib = CDLL(os.path.join(os.getcwd(), "libdarknet.so"), os.RTLD_GLOBAL)
 
-folder_path = "./cars"
+folder_path = "cars"
 
 
 class Car_image_detection(Service):
@@ -42,7 +42,7 @@ class Car_image_detection(Service):
 
 
     def start(self):
-        image = cv2.imread("./images/t32.jpeg")
+        image = cv2.imread("images/t32.jpeg")
 
         labelsPath = os.path.sep.join(["yolo-coco", "coco.names"])
         LABELS = open(labelsPath).read().strip().split("\n")
