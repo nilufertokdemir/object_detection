@@ -1,9 +1,11 @@
 import os
 import cv2
-folder_path = "/home/nilufer/PycharmProjects/ewrwer/cars"
-folder_path2 = "/home/nilufer/PycharmProjects/ewrwer/plates"
+folder_path = "./cars"
+folder_path2 = "./plates"
+
 
 def save_image(image,extention,c):
+
     numbers = []
 
     if c == "c":
@@ -23,6 +25,6 @@ def save_image(image,extention,c):
         next_number = int(numbers_sorted[size - 1].split(".")[0]) + 1
 
     if c == "c":
-        cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/cars/object_%d" % next_number + extention, image)
+        cv2.imwrite("./cars/object_%d" % next_number + extention, image)
     else :
-        cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/plates/object_%d" % next_number + extention, image)
+        cv2.imwrite("./plates/object_%d" % next_number + extention, image)

@@ -2,17 +2,36 @@ from ctypes import CDLL
 
 import numpy as np
 import time
-import image_save
 import sys, os
 
 import cv2
 import os
+from service import Service
 
 sys.path.append(os.path.join(os.getcwd(), '/home/nilufer/Desktop/yolo/darknet/python'))
 lib = CDLL(os.path.join(os.getcwd(), "libdarknet.so"), os.RTLD_GLOBAL)
 
+folder_path = "./cars"
+folder_path2 = "./plates"
 
-class PlateDetection():
+class PlateDetection(Service):
+    def save_image(self,image, extention, f_path):
+
+        numbers = []
+
+        for file in os.listdir(f_path):
+            numbers.append(file.split("_")[1])
+
+        numbers_sorted = sorted(numbers)
+
+        size = len(numbers)
+
+        if size == 0:
+            next_number = 1
+        else:
+            next_number = int(numbers_sorted[size - 1].split(".")[0]) + 1
+
+        cv2.imwrite(f_path+"/object_%d" % next_number + extention, image)
 
     def get_model(self):
         np.random.seed(42)
@@ -27,7 +46,6 @@ class PlateDetection():
 
 
     def start(self):
-        folder_path = "/home/nilufer/PycharmProjects/ewrwer/cars"
 
         net = self.get_model()
 
@@ -35,29 +53,20 @@ class PlateDetection():
         LABELS = open(labelsPath).read().strip().split("\n")
         COLORS = np.random.randint(0, 255, size=(len(LABELS), 3), dtype="uint8")
 
-
         for file in os.listdir(folder_path):
 
             file_name = file.split("_")[1]
             path = folder_path +"/object_"+file_name
             image = cv2.imread(path)
-            (H, W) = image.shape[:2]
-
-            ln = net.getLayerNames()
-            ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 
 
-            blob = cv2.dnn.blobFromImage(image, 1 / 255.0, (416, 416),
-                                         swapRB=True, crop=False)
-            net.setInput(blob)
             start = time.time()
-            layerOutputs = net.forward(ln)
             end = time.time()
 
             print("[INFO] YOLO took {:.6f} seconds".format(end - start))
 
 
-            (H, W) = image.shape[:2]
+            (H, W)= image.shape[:2]
 
             ln = net.getLayerNames()
             ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
@@ -87,10 +96,8 @@ class PlateDetection():
                         box = detection[0:4] * np.array([W, H, W, H])
                         (centerX, centerY, width, height) = box.astype("int")
 
-
                         x = int(centerX - (width / 2))
                         y = int(centerY - (height / 2))
-
 
                         boxes.append([x, y, int(width), int(height)])
                         confidences.append(float(confidence))
@@ -102,10 +109,6 @@ class PlateDetection():
                 for i in idxs.flatten():
                     (x, y) = (boxes[i][0], boxes[i][1])
                     (w, h) = (boxes[i][2], boxes[i][3])
-                    x = boxes[i][0]
-                    y = boxes[i][1]
-                    w = boxes[i][2]
-                    h = boxes[i][3]
 
                     color = [int(c) for c in COLORS[classIDs[i]]]
                     cv2.rectangle(image, (x, y), (x + w, y + h), color, 2)
@@ -116,8 +119,5 @@ class PlateDetection():
                         print("gelme")
                     else:
                         cropped_image = image[y:y + h, x:x + w]
-                        image_save.save_image(cropped_image, ".jpeg", "p")
+                        self.save_image(cropped_image, ".jpeg",folder_path2)
                         # cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/objects/object_%d" % i + ".jpeg", image2)
-                    #cv2.imshow("Image", cropped_image)
-                    #cv2.waitKey(0)
-
