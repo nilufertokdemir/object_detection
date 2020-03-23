@@ -17,23 +17,12 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 class Ocr:
 
     def resize_image(self):
-
-        numbers = []
+        k = 1
 
         for file in os.listdir("plates"):
+            numbers = []
 
             img = cv2.imread("plates/"+file, 0)
-            for num in os.listdir("demo_image"):
-                numbers.append(num.split("_")[1])
-
-            numbers_sorted = sorted(numbers)
-            size = len(numbers)
-
-
-            if size == 0:
-                next_number = 1
-            else:
-                next_number = int(numbers_sorted[size - 1].split(".")[0]) + 1
 
             width = 300
             height = 90
@@ -41,9 +30,9 @@ class Ocr:
 
             resized = cv2.resize(img, dim, interpolation=cv2.INTER_AREA)# resize image
 
-            cv2.imwrite('results/plates_' + str(next_number) + '.jpeg',resized)
+            cv2.imwrite('results/plates_' + str(k) + '.jpeg',resized)
 
-            original_image = cv2.imread('results/plates_' + str(next_number) + '.jpeg')
+            original_image = cv2.imread('results/plates_' + str(k) + '.jpeg')
 
             cropped1= original_image[0:89, 42:106]
             cropped2= original_image[0:89, 106:191]
@@ -55,13 +44,29 @@ class Ocr:
             images.append(cropped2);
             images.append(cropped3);
 
-            j=0;
+            number = []
 
+            for num in os.listdir("demo_image"):
+                num = num.split("_")[1]
+                number.append(num.split(".")[0])
+
+            for i in range(0, len(number)):
+                number[i] = int(number[i])
+
+            number = sorted(number)
+            size = len(number)
+
+            if size == 0:
+                next_number = 1
+            else:
+                next_number = int(number[size - 1])
+
+            j = next_number
             for i in images:
-                j+=1
+                j +=  1
+                #print("j" + str(j))
                 cv2.imwrite('demo_image/cropped_'+str(j)+'.png',i)
-
-
+            k+=1
 
 
     def demo(self):

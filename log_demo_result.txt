@@ -239,3 +239,451 @@ image_path               	predicted_labels         	confidence score
 demo_image/cropped_1.png 	one                      	0.0909
 demo_image/cropped_2.png 	the                      	0.3500
 demo_image/cropped_3.png 	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_1.png 	one                      	0.0909
+demo_image/cropped_2.png 	the                      	0.3500
+demo_image/cropped_3.png 	see                      	0.0491
+demo_image/cropped_5.png 	does                     	0.0030
+demo_image/cropped_7.png 	144                      	0.1972
+demo_image/cropped_9.png 	144                      	0.1972
+demo_image/cropped_11.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	does                     	0.0030
+demo_image/cropped_4.png 	144                      	0.1971
+demo_image/cropped_6.png 	144                      	0.1971
+demo_image/cropped_8.png 	does                     	0.0030
+demo_image/cropped_10.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	does                     	0.0030
+demo_image/cropped_4.png 	144                      	0.1971
+demo_image/cropped_6.png 	144                      	0.1971
+demo_image/cropped_8.png 	does                     	0.0030
+demo_image/cropped_10.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	does                     	0.0030
+demo_image/cropped_4.png 	144                      	0.1971
+demo_image/cropped_6.png 	144                      	0.1971
+demo_image/cropped_8.png 	does                     	0.0030
+demo_image/cropped_10.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0401
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_6.png 	41                       	0.2100
+demo_image/cropped_7.png 	knt                      	0.3976
+demo_image/cropped_8.png 	144                      	0.1972
+demo_image/cropped_10.png	one                      	0.0909
+demo_image/cropped_11.png	the                      	0.3500
+demo_image/cropped_12.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0402
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_5.png 	41                       	0.2101
+demo_image/cropped_6.png 	knt                      	0.3975
+demo_image/cropped_7.png 	144                      	0.1971
+demo_image/cropped_8.png 	41                       	0.2100
+demo_image/cropped_9.png 	knt                      	0.3975
+demo_image/cropped_10.png	144                      	0.1971
+demo_image/cropped_11.png	sli                      	0.0402
+demo_image/cropped_12.png	an                       	0.0232
+demo_image/cropped_13.png	does                     	0.0030
+demo_image/cropped_14.png	and                      	0.0445
+demo_image/cropped_15.png	red                      	0.0501
+demo_image/cropped_16.png	9226                     	0.5603
+demo_image/cropped_17.png	and                      	0.0886
+demo_image/cropped_18.png	rh                       	0.3589
+demo_image/cropped_19.png	928                      	0.9269
+demo_image/cropped_20.png	and                      	0.0445
+demo_image/cropped_21.png	red                      	0.0501
+demo_image/cropped_22.png	9226                     	0.5602
+demo_image/cropped_23.png	sli                      	0.0402
+demo_image/cropped_24.png	an                       	0.0232
+demo_image/cropped_25.png	does                     	0.0030
+demo_image/cropped_26.png	the                      	0.2640
+demo_image/cropped_27.png	the                      	0.1129
+demo_image/cropped_28.png	see                      	0.0180
+demo_image/cropped_29.png	one                      	0.0909
+demo_image/cropped_30.png	the                      	0.3500
+demo_image/cropped_31.png	see                      	0.0491
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	sli                      	0.0402
+demo_image/cropped_3.png 	an                       	0.0232
+demo_image/cropped_4.png 	does                     	0.0030
+demo_image/cropped_5.png 	41                       	0.2100
+demo_image/cropped_6.png 	knt                      	0.3976
+demo_image/cropped_7.png 	144                      	0.1972
+demo_image/cropped_8.png 	41                       	0.2100
+demo_image/cropped_9.png 	knt                      	0.3976
+demo_image/cropped_10.png	144                      	0.1972
+demo_image/cropped_11.png	sli                      	0.0402
+demo_image/cropped_12.png	an                       	0.0232
+demo_image/cropped_13.png	does                     	0.0030
+demo_image/cropped_14.png	and                      	0.0445
+demo_image/cropped_15.png	red                      	0.0501
+demo_image/cropped_16.png	9226                     	0.5601
+demo_image/cropped_17.png	and                      	0.0886
+demo_image/cropped_18.png	rh                       	0.3588
+demo_image/cropped_19.png	928                      	0.9269
+demo_image/cropped_20.png	and                      	0.0445
+demo_image/cropped_21.png	red                      	0.0501
+demo_image/cropped_22.png	9226                     	0.5601
+demo_image/cropped_23.png	sli                      	0.0402
+demo_image/cropped_24.png	an                       	0.0232
+demo_image/cropped_25.png	does                     	0.0030
+demo_image/cropped_26.png	the                      	0.2640
+demo_image/cropped_27.png	the                      	0.1129
+demo_image/cropped_28.png	see                      	0.0180
+demo_image/cropped_29.png	one                      	0.0909
+demo_image/cropped_30.png	the                      	0.3500
+demo_image/cropped_31.png	see                      	0.0491
+demo_image/cropped_32.png	41                       	0.6336
+demo_image/cropped_33.png	kn                       	0.9690
+demo_image/cropped_34.png	444                      	0.4913
+demo_image/cropped_35.png	sa                       	0.1466
+demo_image/cropped_36.png	eling                    	0.0009
+demo_image/cropped_37.png	see                      	0.0163
+demo_image/cropped_38.png	4                        	0.3565
+demo_image/cropped_39.png	rh                       	0.5742
+demo_image/cropped_40.png	928                      	0.7736
+demo_image/cropped_41.png	the                      	0.2640
+demo_image/cropped_42.png	the                      	0.1129
+demo_image/cropped_43.png	see                      	0.0180
+demo_image/cropped_44.png	sli                      	0.0402
+demo_image/cropped_45.png	an                       	0.0232
+demo_image/cropped_46.png	does                     	0.0030
+demo_image/cropped_47.png	41                       	0.7192
+demo_image/cropped_48.png	kn                       	0.9952
+demo_image/cropped_49.png	444                      	0.9738
+demo_image/cropped_50.png	sa                       	0.1466
+demo_image/cropped_51.png	eling                    	0.0009
+demo_image/cropped_52.png	see                      	0.0163
+demo_image/cropped_53.png	the                      	0.1581
+demo_image/cropped_54.png	clu                      	0.0139
+demo_image/cropped_55.png	so                       	0.1243
+demo_image/cropped_56.png	41                       	0.6336
+demo_image/cropped_57.png	kn                       	0.9690
+demo_image/cropped_58.png	444                      	0.4913
+demo_image/cropped_59.png	4                        	0.3565
+demo_image/cropped_60.png	rh                       	0.5742
+demo_image/cropped_61.png	928                      	0.7736
+demo_image/cropped_62.png	4                        	0.3565
+demo_image/cropped_63.png	rh                       	0.5742
+demo_image/cropped_64.png	928                      	0.7736
+demo_image/cropped_65.png	41                       	0.2581
+demo_image/cropped_66.png	knt                      	0.1833
+demo_image/cropped_67.png	144                      	0.1068
+demo_image/cropped_68.png	4                        	0.3565
+demo_image/cropped_69.png	rh                       	0.5742
+demo_image/cropped_70.png	928                      	0.7736
+demo_image/cropped_71.png	4                        	0.3565
+demo_image/cropped_72.png	rh                       	0.5742
+demo_image/cropped_73.png	928                      	0.7736
+demo_image/cropped_74.png	only                     	0.0560
+demo_image/cropped_75.png	the                      	0.0788
+demo_image/cropped_76.png	so                       	0.0520
+demo_image/cropped_77.png	sa                       	0.1466
+demo_image/cropped_78.png	eling                    	0.0009
+demo_image/cropped_79.png	see                      	0.0163
+demo_image/cropped_80.png	41                       	0.6537
+demo_image/cropped_81.png	kn                       	0.9740
+demo_image/cropped_82.png	144                      	0.5736
+demo_image/cropped_83.png	sl                       	0.0675
+demo_image/cropped_84.png	any                      	0.0091
+demo_image/cropped_85.png	sp                       	0.0622
+demo_image/cropped_86.png	41                       	0.2581
+demo_image/cropped_87.png	knt                      	0.1833
+demo_image/cropped_88.png	144                      	0.1068
+demo_image/cropped_89.png	41                       	0.2581
+demo_image/cropped_90.png	knt                      	0.1833
+demo_image/cropped_91.png	144                      	0.1068
+demo_image/cropped_92.png	41                       	0.6336
+demo_image/cropped_93.png	kn                       	0.9690
+demo_image/cropped_94.png	444                      	0.4913
+demo_image/cropped_95.png	sl                       	0.0675
+demo_image/cropped_96.png	any                      	0.0091
+demo_image/cropped_97.png	sp                       	0.0622
+demo_image/cropped_98.png	41                       	0.2581
+demo_image/cropped_99.png	knt                      	0.1833
+demo_image/cropped_100.png	144                      	0.1068
+demo_image/cropped_101.png	only                     	0.0560
+demo_image/cropped_102.png	the                      	0.0788
+demo_image/cropped_103.png	so                       	0.0520
+demo_image/cropped_104.png	41                       	0.7192
+demo_image/cropped_105.png	kn                       	0.9952
+demo_image/cropped_106.png	444                      	0.9738
+demo_image/cropped_107.png	sl                       	0.0675
+demo_image/cropped_108.png	any                      	0.0091
+demo_image/cropped_109.png	sp                       	0.0622
+demo_image/cropped_110.png	4                        	0.3565
+demo_image/cropped_111.png	rh                       	0.5742
+demo_image/cropped_112.png	928                      	0.7736
+demo_image/cropped_113.png	the                      	0.2640
+demo_image/cropped_114.png	the                      	0.1129
+demo_image/cropped_115.png	see                      	0.0180
+demo_image/cropped_116.png	4                        	0.3565
+demo_image/cropped_117.png	rh                       	0.5742
+demo_image/cropped_118.png	928                      	0.7736
+demo_image/cropped_119.png	the                      	0.2640
+demo_image/cropped_120.png	the                      	0.1129
+demo_image/cropped_121.png	see                      	0.0180
+demo_image/cropped_122.png	41                       	0.7192
+demo_image/cropped_123.png	kn                       	0.9952
+demo_image/cropped_124.png	444                      	0.9738
+demo_image/cropped_125.png	41                       	0.7192
+demo_image/cropped_126.png	kn                       	0.9952
+demo_image/cropped_127.png	444                      	0.9738
+demo_image/cropped_128.png	only                     	0.0560
+demo_image/cropped_129.png	the                      	0.0788
+demo_image/cropped_130.png	so                       	0.0520
+demo_image/cropped_131.png	sli                      	0.0402
+demo_image/cropped_132.png	an                       	0.0232
+demo_image/cropped_133.png	does                     	0.0030
+demo_image/cropped_134.png	4                        	0.3565
+demo_image/cropped_135.png	rh                       	0.5742
+demo_image/cropped_136.png	928                      	0.7736
+demo_image/cropped_137.png	sli                      	0.0402
+demo_image/cropped_138.png	an                       	0.0232
+demo_image/cropped_139.png	does                     	0.0030
+demo_image/cropped_140.png	only                     	0.0560
+demo_image/cropped_141.png	the                      	0.0788
+demo_image/cropped_142.png	so                       	0.0520
+demo_image/cropped_143.png	the                      	0.1581
+demo_image/cropped_144.png	clu                      	0.0139
+demo_image/cropped_145.png	so                       	0.1243
+demo_image/cropped_146.png	sa                       	0.1466
+demo_image/cropped_147.png	eling                    	0.0009
+demo_image/cropped_148.png	see                      	0.0163
+demo_image/cropped_149.png	4                        	0.3565
+demo_image/cropped_150.png	rh                       	0.5742
+demo_image/cropped_151.png	928                      	0.7736
+demo_image/cropped_152.png	4                        	0.3565
+demo_image/cropped_153.png	rh                       	0.5742
+demo_image/cropped_154.png	928                      	0.7736
+demo_image/cropped_155.png	4                        	0.3565
+demo_image/cropped_156.png	rh                       	0.5742
+demo_image/cropped_157.png	928                      	0.7736
+demo_image/cropped_158.png	4                        	0.3565
+demo_image/cropped_159.png	rh                       	0.5742
+demo_image/cropped_160.png	928                      	0.7736
+demo_image/cropped_161.png	sli                      	0.0402
+demo_image/cropped_162.png	an                       	0.0232
+demo_image/cropped_163.png	does                     	0.0030
+demo_image/cropped_164.png	the                      	0.2640
+demo_image/cropped_165.png	the                      	0.1129
+demo_image/cropped_166.png	see                      	0.0180
+demo_image/cropped_167.png	4                        	0.3565
+demo_image/cropped_168.png	rh                       	0.5742
+demo_image/cropped_169.png	928                      	0.7736
+demo_image/cropped_170.png	4                        	0.3565
+demo_image/cropped_171.png	rh                       	0.5742
+demo_image/cropped_172.png	928                      	0.7736
+demo_image/cropped_173.png	41                       	0.6319
+demo_image/cropped_174.png	rh                       	0.2782
+demo_image/cropped_175.png	928                      	0.9590
+demo_image/cropped_176.png	41                       	0.2581
+demo_image/cropped_177.png	knt                      	0.1833
+demo_image/cropped_178.png	144                      	0.1068
+demo_image/cropped_179.png	sli                      	0.0402
+demo_image/cropped_180.png	an                       	0.0232
+demo_image/cropped_181.png	does                     	0.0030
+demo_image/cropped_182.png	the                      	0.1581
+demo_image/cropped_183.png	clu                      	0.0139
+demo_image/cropped_184.png	so                       	0.1243
+demo_image/cropped_185.png	41                       	0.2581
+demo_image/cropped_186.png	knt                      	0.1833
+demo_image/cropped_187.png	144                      	0.1068
+demo_image/cropped_188.png	the                      	0.2640
+demo_image/cropped_189.png	the                      	0.1129
+demo_image/cropped_190.png	see                      	0.0180
+demo_image/cropped_191.png	sl                       	0.0675
+demo_image/cropped_192.png	any                      	0.0091
+demo_image/cropped_193.png	sp                       	0.0622
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_194.png	only                     	0.0560
+demo_image/cropped_195.png	the                      	0.0788
+demo_image/cropped_196.png	so                       	0.0520
+demo_image/cropped_197.png	only                     	0.0560
+demo_image/cropped_198.png	the                      	0.0788
+demo_image/cropped_199.png	so                       	0.0520
+demo_image/cropped_200.png	41                       	0.6537
+demo_image/cropped_201.png	kn                       	0.9740
+demo_image/cropped_202.png	144                      	0.5736
+demo_image/cropped_203.png	the                      	0.1581
+demo_image/cropped_204.png	clu                      	0.0139
+demo_image/cropped_205.png	so                       	0.1242
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_2.png 	41                       	0.6537
+demo_image/cropped_3.png 	kn                       	0.9740
+demo_image/cropped_4.png 	144                      	0.5736
+demo_image/cropped_5.png 	4                        	0.3565
+demo_image/cropped_6.png 	rh                       	0.5742
+demo_image/cropped_7.png 	928                      	0.7735
+demo_image/cropped_8.png 	sli                      	0.0401
+demo_image/cropped_9.png 	an                       	0.0232
+demo_image/cropped_10.png	does                     	0.0030
+demo_image/cropped_11.png	one                      	0.0909
+demo_image/cropped_12.png	the                      	0.3500
+demo_image/cropped_13.png	see                      	0.0491
