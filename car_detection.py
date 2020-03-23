@@ -9,8 +9,6 @@ from service import Service
 sys.path.append(os.path.join(os.getcwd(),'/home/nilufer/Desktop/yolo/darknet/python'))
 lib = CDLL(os.path.join(os.getcwd(), "libdarknet.so"), os.RTLD_GLOBAL)
 
-folder_path = "cars"
-
 
 class Car_image_detection(Service):
 
@@ -100,12 +98,10 @@ class Car_image_detection(Service):
                 cv2.rectangle(image, (x, y), (x + w, y + h), color, 2)
                 text = "{}: {:.4f}".format(LABELS[classIDs[i]], confidences[i])
                 cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX,0.5, color, 2)
-                if classIDs[i] == 0:
-                    print("Error!!")
-                else:
+                if classIDs[i] != 0:
                     cropped_image = image[y:y + h, x:x + w]
-                    self.save_image(cropped_image,".jpeg",folder_path)
-                    #cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/objects/object_%d" % i + ".jpeg", image2)
+                    self.save_image(cropped_image, ".jpeg", "cars")
+                    # cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/objects/object_%d" % i + ".jpeg", image2)
 
 
 

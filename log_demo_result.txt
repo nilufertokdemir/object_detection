@@ -1,0 +1,241 @@
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped1.png  	41                       	0.6537
+demo_image/cropped2.png  	kn                       	0.9740
+demo_image/cropped3.png  	144                      	0.5736
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/cropped_1.png 	one                      	0.0909
+demo_image/cropped_2.png 	the                      	0.3500
+demo_image/cropped_3.png 	see                      	0.0491

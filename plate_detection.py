@@ -11,8 +11,7 @@ from service import Service
 sys.path.append(os.path.join(os.getcwd(), '/home/nilufer/Desktop/yolo/darknet/python'))
 lib = CDLL(os.path.join(os.getcwd(), "libdarknet.so"), os.RTLD_GLOBAL)
 
-folder_path = "cars"
-folder_path2 = "plates"
+
 
 class PlateDetection(Service):
     def save_image(self,image, extention, f_path):
@@ -53,10 +52,10 @@ class PlateDetection(Service):
         LABELS = open(labelsPath).read().strip().split("\n")
         COLORS = np.random.randint(0, 255, size=(len(LABELS), 3), dtype="uint8")
 
-        for file in os.listdir(folder_path):
+        for file in os.listdir("cars"):
 
             file_name = file.split("_")[1]
-            path = folder_path +"/object_"+file_name
+            path = "cars/object_"+file_name
             image = cv2.imread(path)
 
 
@@ -115,9 +114,7 @@ class PlateDetection(Service):
                     text = "{}: {:.4f}".format(LABELS[classIDs[i]], confidences[i])
                     cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX,
                                 0.5, color, 2)
-                    if classIDs[i] == 0:
-                        print("gelme")
-                    else:
+                    if classIDs[i] != 0:
                         cropped_image = image[y:y + h, x:x + w]
-                        self.save_image(cropped_image, ".jpeg",folder_path2)
+                        self.save_image(cropped_image, ".jpeg", "plates")
                         # cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/objects/object_%d" % i + ".jpeg", image2)
