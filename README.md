@@ -1,6 +1,6 @@
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Ağırlık dosyaları:
-https://drive.google.com/open?id=1PCzXZb2bSmGx5bACe4_YHjC22XmQCAx_
+https://drive.google.com/file/d/1zuVv7MNVfwUjqqrEC_CqjN2sshXqD5jQ/view?usp=sharing
 
 
 
