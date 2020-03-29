@@ -20,18 +20,13 @@ class Ocr:
         k = 1
 
         for file in os.listdir("plates"):
-            numbers = []
-
             img = cv2.imread("plates/"+file, 0)
-
             width = 300
             height = 90
             dim = (width, height)
 
             resized = cv2.resize(img, dim, interpolation=cv2.INTER_AREA)# resize image
-
             cv2.imwrite('results/plates_' + str(k) + '.jpeg',resized)
-
             original_image = cv2.imread('results/plates_' + str(k) + '.jpeg')
 
             cropped1= original_image[0:89, 42:106]
@@ -68,8 +63,26 @@ class Ocr:
                 cv2.imwrite('demo_image/cropped_'+str(j)+'.png',i)
             k+=1
 
+    def merge_plates(self):
+        plates = []
+        part = ""
+        strings = self.demo()
+        k = 1
+
+        for piece in strings:
+            if k < 3:
+                part += piece + " "
+                k += 1
+            elif k == 3:
+                part += piece
+                plates.append(part)
+                k = 1
+                part = ""
+
+        return plates
 
     def demo(self):
+        predictions = []
         opt = self.get_args()
         self.resize_image()
 
@@ -137,14 +150,15 @@ class Ocr:
                         pred = pred[:pred_EOS]  # prune after "end of sentence" token ([s])
                         pred_max_prob = pred_max_prob[:pred_EOS]
 
-                    # calculate confidence score (= multiply of pred_max_prob)
+
                     confidence_score = pred_max_prob.cumprod(dim=0)[-1]
 
                     print(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}')
                     log.write(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}\n')
-
+                    predictions.append(pred)
                 log.close()
 
+        return predictions
     def get_args(self):
         parser = argparse.ArgumentParser()
 
