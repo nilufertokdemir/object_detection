@@ -118,5 +118,8 @@ class PlateDetection(Service):
                                 0.5, color, 2)
                     if classIDs[i] != 0:
                         cropped_image = image[y:y + h, x:x + w]
-                        self.save_image(cropped_image, ".jpeg", "plates")
+                        height = cropped_image.shape[0]
+                        width = cropped_image.shape[1]
+                        if height != 0 and width != 0:
+                            self.save_image(cropped_image, ".jpeg", "plates")
                         # cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/objects/object_%d" % i + ".jpeg", image2)

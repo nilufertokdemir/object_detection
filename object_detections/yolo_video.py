@@ -41,7 +41,7 @@ class Video_Detection(Service):
     def start(self):
         ap = argparse.ArgumentParser()
         ap.add_argument("-i", "--input",
-                        default="videos/00005.mp4")
+                        default="videos/1.mp4")
         ap.add_argument("-o", "--output",
                         default="output/overpass.avi")
         ap.add_argument("-y", "--yolo",
@@ -143,7 +143,7 @@ class Video_Detection(Service):
                         width = cropped_image.shape[1]
 
                         print(dimensions)
-                        if int(height) != 0 | int(width) != 0:
+                        if height > 50 and width > 50:
                             self.save_image(cropped_image, ".jpeg")
 
             if writer is None:
