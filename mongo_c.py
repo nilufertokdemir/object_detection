@@ -3,9 +3,8 @@ from datetime import datetime
 import find_distance
 import app
 
-
-def find_speed(req):
-    response = app.aracApiConnection("http://localhost:3000/arac/list")
+def find_speed(url, req):
+    response = app.aracApiConnection(url)
 
     dates = []
     items = []
@@ -13,9 +12,11 @@ def find_speed(req):
     total_distance = 0.0
     total_time = 0.0
     times = []
+    d = []
 
     for data in response:
         items.append(data.__getitem__('plate') + "_" + str(data.__getitem__('camId')) + "_" + str(data.__getitem__('time')))
+
 
     for item in items:
        if req == item.split("_")[0]:
@@ -25,6 +26,7 @@ def find_speed(req):
             time = date.split(":")[1] + ":" + date.split(":")[2]
             times.append(time.split(".")[0])
             if len(camIds) == 2 and all(x == dates[0] for x in dates):
+                d.append(item.split("_")[2])
                 dates.reverse()
                 format = '%H:%M'
                 total_time += (datetime.strptime(times[0], format) - datetime.strptime(times[1], format)).total_seconds()
@@ -45,11 +47,9 @@ def find_speed(req):
                 dates.pop(1)
 
     speed = total_distance / (total_time/3600.0)
+    data = []
 
-    json_data = {
-        "plaka": req,
-        "speed": speed
-    }
-    app.postValues('http://localhost:3000/klnistek/', json_data)
-
-    return speed
+    data.append(speed)
+    data.append(total_distance)
+    #app.postValues('http://localhost:3003/klnistek/', json_data)
+    return data
