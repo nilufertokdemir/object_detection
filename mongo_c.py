@@ -6,14 +6,15 @@ import app
 def find_speed(url, req):
     response = app.aracApiConnection(url)
 
+    datas = []
     dates = []
     items = []
     camIds = []
     total_distance = 0.0
     total_time = 0.0
     times = []
-    d = []
-
+    da = []
+    c = 0
     for data in response:
         items.append(data.__getitem__('plate') + "_" + str(data.__getitem__('camId')) + "_" + str(data.__getitem__('time')))
 
@@ -26,7 +27,15 @@ def find_speed(url, req):
             time = date.split(":")[1] + ":" + date.split(":")[2]
             times.append(time.split(".")[0])
             if len(camIds) == 2 and all(x == dates[0] for x in dates):
-                d.append(item.split("_")[2])
+                if c == 0:
+                    d_t = dates[0].split("T")[0]
+                    print(d_t)
+                    format = '%d-%m-%Y'
+                    dt_obj = datetime.strptime(d_t, '%Y-%m-%d')
+                    date_t = datetime.strftime(dt_obj, format)
+                    datas.append(date_t)
+                    c += 1
+
                 dates.reverse()
                 format = '%H:%M'
                 total_time += (datetime.strptime(times[0], format) - datetime.strptime(times[1], format)).total_seconds()
@@ -47,9 +56,8 @@ def find_speed(url, req):
                 dates.pop(1)
 
     speed = total_distance / (total_time/3600.0)
-    data = []
 
-    data.append(speed)
-    data.append(total_distance)
+    datas.append(speed)
+    datas.append(total_distance)
     #app.postValues('http://localhost:3003/klnistek/', json_data)
-    return data
+    return datas

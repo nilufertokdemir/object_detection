@@ -46,7 +46,6 @@ def klnIst(url):
 
         jData = json.loads(myResponse.content)
         response_list = []
-        sleep(2)
         for item in jData:
             response_details = {"_id": None, "plaka": None, "hız": None, "mesafe": None,  "tarih": None}
             response_details['_id'] = item['_id']
