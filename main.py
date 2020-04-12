@@ -1,6 +1,12 @@
+import datetime
 
 from mongo_c import find_speed
 import app
+
+
+
+
+
 if __name__ == '__main__':
 
     '''
@@ -19,14 +25,17 @@ if __name__ == '__main__':
         response.reverse()
         if response[0].__getitem__("hız") == "" and response[0].__getitem__("mesafe") == "":
             id = response[0].__getitem__("_id")
-            datas = find_speed("http://localhost:3003/arac/list",response[0].__getitem__("plaka"))
+            datas = find_speed("http://localhost:3003/arac/list", response[0].__getitem__("plaka"))
+
             json_data = {
-                "_id":response[0].__getitem__("_id"),
+                "_id": id,
                 "plaka": response[0].__getitem__("plaka"),
-                "hız": datas[0],
-                "mesafe": datas[1],
-                "tarih": response[0].__getitem__("tarih"),
+                "hız": datas[1],
+                "mesafe": datas[2],
+                "tarih": datas[0]
             }
+
+            print(json_data)
             app.updateValues('http://localhost:3003/klnistek/' + id, json_data)
             print("ok.")
 
