@@ -13,7 +13,6 @@ def find_speed(url, req):
     total_distance = 0.0
     total_time = 0.0
     times = []
-    da = []
     c = 0
     for data in response:
         items.append(data.__getitem__('plate') + "_" + str(data.__getitem__('camId')) + "_" + str(data.__getitem__('time')))
@@ -22,19 +21,13 @@ def find_speed(url, req):
     for item in items:
        if req == item.split("_")[0]:
             date = item.split("_")[2]
-            dates.append(date.split(":")[0])
+            dates.append(date.split("T")[0])
             camIds.append(item.split("_")[1])
-            time = date.split(":")[1] + ":" + date.split(":")[2]
-            times.append(time.split(".")[0])
+            d_1 = date.split("T")[1]
+            hours_minutes = d_1.split(".")[0]
+            times.append(hours_minutes.split(":")[0] + ":" +hours_minutes.split(":")[1])
+
             if len(camIds) == 2 and all(x == dates[0] for x in dates):
-                if c == 0:
-                    d_t = dates[0].split("T")[0]
-                    print(d_t)
-                    format = '%d-%m-%Y'
-                    dt_obj = datetime.strptime(d_t, '%Y-%m-%d')
-                    date_t = datetime.strftime(dt_obj, format)
-                    datas.append(date_t)
-                    c += 1
 
                 dates.reverse()
                 format = '%H:%M'
@@ -51,13 +44,22 @@ def find_speed(url, req):
 
                 distance = find_distance.find_distance(lat, long, lat1, long1)
                 total_distance += distance
+
+                speed = total_distance / (total_time/3600.0)
+
+                json_data = {
+                    "hız": speed,
+                    "mesafe": total_distance,
+                    "cam1": camIds[0],
+                    "cam2": camIds[1],
+                    "time": (total_time/3600.0)
+                }
+                datas.append(json_data)
+
                 camIds.pop(0)
                 times.pop(0)
                 dates.pop(1)
 
-    speed = total_distance / (total_time/3600.0)
+                print(json_data)
 
-    datas.append(speed)
-    datas.append(total_distance)
-    #app.postValues('http://localhost:3003/klnistek/', json_data)
     return datas
