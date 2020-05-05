@@ -47,11 +47,15 @@ def klnIst(url):
         jData = json.loads(myResponse.content)
         response_list = []
         for item in jData:
-            response_details = {"_id": None, "plaka": None, "hız": None, "mesafe": None,  "tarih": None}
+            response_details = {"_id": None, "plaka": None, "hız": None, "mesafe": None, "adres":None,"adres2":None, "tarih": None}
             response_details['_id'] = item['_id']
             response_details['plaka'] = item['plaka']
             response_details['hız'] = item['hız']
+
             response_details['mesafe'] = item['mesafe']
+            response_details['adres'] = item['adres']
+            response_details['adres2'] = item['adres2']
+            response_details['tarih'] = item['tarih']
             response_list.append(response_details)
 
         return response_list
@@ -134,6 +138,7 @@ def updateValues(api_url, json_data):
 
 def deleteValues(api_url):
     response = requests.delete(api_url)
+    print(response.status_code )
     if response.status_code >= 500:
         print('[!] [{0}] Server Error'.format(response.status_code))
         return None
@@ -141,7 +146,7 @@ def deleteValues(api_url):
         print('[!] [{0}] URL not found: [{1}]'.format(response.status_code, api_url))
         return None
     else:
-        print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
+        print('[?] Unexpected Error1: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
         return None
 
 

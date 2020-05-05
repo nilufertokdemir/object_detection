@@ -42,7 +42,7 @@ class Video_Detection(Service):
     def start(self):
         ap = argparse.ArgumentParser()
         ap.add_argument("-i", "--input",
-                        default="videos/1.mp4")
+                        default="videos/yazılım.mp4")
         ap.add_argument("-o", "--output",
                         default="output/overpass.avi")
         ap.add_argument("-y", "--yolo",
@@ -87,7 +87,6 @@ class Video_Detection(Service):
 
         while True:
             count = len([name for name in os.listdir("cars") if os.path.isfile(os.path.join("cars", name))])
-
             if int(count) > 100:
                 break
             (grabbed, frame) = vs.read()

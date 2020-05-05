@@ -1,18 +1,42 @@
+
 from mongo_c import find_speed
 import app
 from object_detections.plate_detection import PlateDetection
 from object_detections.yolo_video import Video_Detection
 
+def compare(json_data, responses):
+    comp = []
+    for response in responses:
+        if response.__getitem__("hız") !=0 and response.__getitem__("mesafe") != 0:
+            json = {
+                "hız": response.__getitem__("hız"),
+                "adres": response.__getitem__("adres"),
+                "adres2": response.__getitem__("adres2"),
+                "tarih": response.__getitem__("tarih").split("T")[0]
+            }
+            comp.append(json)
+
+    json_data = {
+                "hız": json_data.__getitem__("hız"),
+                "adres": json_data.__getitem__("adres"),
+                "adres2": json_data.__getitem__("adres2"),
+                "tarih": json_data.__getitem__("tarih").split("T")[0]
+            }
+
+    if not json_data in comp:
+        return 1
+    else:
+        return 0
 
 if __name__ == '__main__':
 
+    #video = Video_Detection()
+    #video.start()
 
-    total_distance = 0
-    total_time = 0
     while True:
         responses = app.klnIst("http://localhost:3000/klnistek/list")
         for response in responses:
-            if response.__getitem__("hız") == "" and response.__getitem__("mesafe") == "":
+            if response.__getitem__("hız") == 0 and response.__getitem__("mesafe") == 0:
                 id = response.__getitem__("_id")
                 datas = find_speed("http://localhost:3000/arac/list", response.__getitem__("plaka"))
                 for data in datas:
@@ -29,21 +53,16 @@ if __name__ == '__main__':
                         "tarih": data.__getitem__("tarih").split("T")[0]
 
                     }
-                    total_distance += data.__getitem__("mesafe")
-                    total_time += data.__getitem__("time")
-                    #print(json_data)
-                    app.postValues('http://localhost:3000/klnistek/', json_data)
+                    responses = app.klnIst("http://localhost:3000/klnistek/list")
+                    if len(responses) > 0:
+                        result = compare(json_data, responses)
+                        if result == 1:
+                            app.postValues('http://localhost:3000/klnistek/', json_data)
+                    elif len(responses) == 0:
+                        app.postValues('http://localhost:3000/klnistek/', json_data)
+                app.deleteValues('http://localhost:3000/klnistek/sil/' + id)
 
-                total_speed = total_distance / total_time
 
-                json = {
-                    "_id": id,
-                    "plaka": response.__getitem__("plaka"),
-                    "hız": total_speed,
-                    "mesafe": total_distance,
-                    "tarih": response.__getitem__("tarih")
-                }
-                #print(json)
-                app.updateValues('http://localhost:3000/klnistek/' + id,json)
+
 
 

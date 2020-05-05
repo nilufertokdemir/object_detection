@@ -62,12 +62,6 @@ class PlateDetection(Service):
             image = cv2.imread(path)
 
 
-            start = time.time()
-            end = time.time()
-
-            print("[INFO] YOLO took {:.6f} seconds".format(end - start))
-
-
             (H, W)= image.shape[:2]
 
             ln = net.getLayerNames()
@@ -81,7 +75,7 @@ class PlateDetection(Service):
             layerOutputs = net.forward(ln)
             end = time.time()
 
-            print("[INFO] YOLO took {:.6f} seconds".format(end - start))
+            #print("[INFO] YOLO took {:.6f} seconds".format(end - start))
 
             boxes = []
             confidences = []
@@ -125,5 +119,8 @@ class PlateDetection(Service):
                             self.save_image(cropped_image, ".jpeg", "plates")
                         # cv2.imwrite("/home/nilufer/PycharmProjects/ewrwer/objects/object_%d" % i + ".jpeg", image2)
 
+        ocr = Ocr()
+        ocr.main()
+    def Ocr(self):
         ocr = Ocr()
         ocr.main()
