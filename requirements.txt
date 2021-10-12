@@ -66,7 +66,7 @@ networkx==2.4
 notebook==6.0.2
 numpy==1.18.1
 olefile==0.46
-opencv-python==4.1.2.30
+opencv-python==4.2.0.32
 opt-einsum==0+untagged.53.g6ab433b.dirty
 packaging==20.3
 pandas==0.25.3
