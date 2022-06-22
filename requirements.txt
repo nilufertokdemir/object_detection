@@ -64,7 +64,7 @@ nbconvert==5.6.1
 nbformat==5.0.4
 networkx==2.4
 notebook==6.0.2
-numpy==1.18.1
+numpy==1.22.0
 olefile==0.46
 opencv-python==4.1.2.30
 opt-einsum==0+untagged.53.g6ab433b.dirty
